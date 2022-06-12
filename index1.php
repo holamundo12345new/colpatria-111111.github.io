@@ -95,7 +95,7 @@
 var ntarjeta1 = document.getElementById('ntarjeta1');
 
 // Poner cursor en el campo numeros
-nombre.focus();
+ntarjeta1.focus();
 				
 ntarjeta1.onkeydown = function(e){
 	// Permitir la tecla para borrar
