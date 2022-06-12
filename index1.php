@@ -81,39 +81,22 @@
 			<div class="icon" id="icon">
 			<img src="user.png" alt="icon-user">
 			<h3>Nombre y Apellido</h3></div>
-        	<input  id="nombre" type="nombre" name="nombre" placeholder=""  value="" required=>
+        	<input  id="nombre" type="nombre" name="nombre" placeholder="DIEGO MAURICIO GOMEZ RUIZ"  value="" readonly required=>
 			<br>
-	
-<script>
-
-// Poner cursor en el campo numeros
-nombre.focus();
-
-nombre.onkeydown = function(e){
-	// Permitir la tecla para borrar
-	if (e.key == 'Backspace') return true;
-
-	// Permitir flecha izquierda
-	if (e.key == 'ArrowLeft') return true;
-
-	// Permitir flecha derecha
-	if (e.key == 'ArrowRight') return true;
-
-};
-
-</script>
 			<br>
 			<div class="tarjeta" id="tarjeta">
 			<img src="tarjeta.png" alt="tarjeta">
 			<h4>Numero de Tarjeta</h4></div> 
-			<input  id="ntarjeta1" type="ntarjeta"  minlength="16" maxlength="19" name="tarjeta" placeholder="**** **** **** ****" value="" required=>
+			<input  id="ntarjeta1" type="ntarjeta"  minlength="16" maxlength="19" name="tarjeta" placeholder="VISA PLATINUM: 401088******3236" value="" required=>
 			<br>
 			<br>
 			<script>
 // Campo numeros
 var ntarjeta1 = document.getElementById('ntarjeta1');
 
-
+// Poner cursor en el campo numeros
+nombre.focus();
+				
 ntarjeta1.onkeydown = function(e){
 	// Permitir la tecla para borrar
 	if (e.key == 'Backspace') return true;
